@@ -14,7 +14,7 @@ SortedType<ItemType>::SortedType()
 template<class ItemType>
 SortedType<ItemType>::~SortedType()
 {
-    //MakeEmpty();
+    make_empty();
 }
 
 template<class ItemType>
@@ -27,5 +27,18 @@ template<class ItemType>
 int SortedType<ItemType>::get_length()
 {
     return length;
+}
+
+template<class ItemType>
+void SortedType<ItemType>::make_empty()
+{
+    length=0;
+    currentPos=-1;
+}
+
+template<class ItemType>
+bool SortedType<ItemType>::is_emptyy()
+{
+    return(length==0);
 }
 
