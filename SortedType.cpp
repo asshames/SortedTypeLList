@@ -16,3 +16,16 @@ SortedType<ItemType>::~SortedType()
 {
     //MakeEmpty();
 }
+
+template<class ItemType>
+bool SortedType<ItemType>::is_full()
+{
+    return(length = MAX_ITEMS);
+}
+
+template<class ItemType>
+int SortedType<ItemType>::get_length()
+{
+    return length;
+}
+

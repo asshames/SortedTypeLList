@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1542364768 source:d:\study\18-fall\cse225 assignment#2\sortedtypellist\sortedtype.cpp
+	"SortedType.h"
+	<iostream>
+	<exception>
+
+1542363237 d:\study\18-fall\cse225 assignment#2\sortedtypellist\sortedtype.h
+	<iostream>
+
