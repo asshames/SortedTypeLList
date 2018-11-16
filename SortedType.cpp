@@ -42,3 +42,30 @@ bool SortedType<ItemType>::is_emptyy()
     return(length==0);
 }
 
+template<class ItemType>
+ItemType SortedType<ItemType>::get_item(ItemType item, bool& found)
+{
+    found = false;
+    int low = 0;
+    int high = length-1;
+    int mid = (low+high)/2;
+    bool moreTOSearch = (low <= high);
+    while(moreTOSearch && !found)
+    {
+        if(info[mid] == item)
+        {
+            found = true;
+            return info[mid];
+        }
+        else if(item > info[mid])
+            low = mid+1;
+        else
+            high = mid-1;
+
+        moreTOSearch = (low <= high);
+        mid = (low+high)/2;
+    }
+    return item;
+}
+
+

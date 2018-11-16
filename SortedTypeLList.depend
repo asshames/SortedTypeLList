@@ -7,11 +7,11 @@
 1542363237 d:\study\18-fall\cse225 assignment#2\sortedtypellist\sortedtype.h
 	<iostream>
 
-1542364802 source:d:\study\18-fall\cse225 assignment#2\sortedtypellist\main.cpp
+1542365003 source:d:\study\18-fall\cse225 assignment#2\sortedtypellist\main.cpp
 	<iostream>
 	"SortedType.cpp"
 
-1542364935 d:\study\18-fall\cse225 assignment#2\sortedtypellist\sortedtype.cpp
+1542365224 d:\study\18-fall\cse225 assignment#2\sortedtypellist\sortedtype.cpp
 	"SortedType.h"
 	<iostream>
 	<exception>
