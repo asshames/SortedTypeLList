@@ -1,9 +1,13 @@
 #include <iostream>
+#include "SortedType.cpp"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    SortedType <int> Mylist;
+
+
+
     return 0;
 }
